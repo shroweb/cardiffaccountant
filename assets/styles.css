@@ -1324,6 +1324,10 @@ h3 {
   border-bottom: 1px solid var(--line);
 }
 
+.service-includes-panel .feature-list li::before {
+  top: calc(14px + .55em);
+}
+
 .service-includes-panel .feature-list li:last-child {
   border-bottom: 0;
 }
@@ -1499,6 +1503,8 @@ h3 {
   content: "\f061";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
   color: var(--muted);
   font-size: .8rem;
   transition: transform .18s ease, color .18s ease;
