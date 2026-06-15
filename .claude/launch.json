@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cardiff-accountant",
+      "runtimeExecutable": "php",
+      "runtimeArgs": ["-S", "127.0.0.1:8088"],
+      "port": 8088,
+      "autoPort": false
+    }
+  ]
+}

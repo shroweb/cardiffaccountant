@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://jtaccountancy.co.uk/sitemap.xml
+Sitemap: https://thecardiffaccountant.co.uk/sitemap.xml
