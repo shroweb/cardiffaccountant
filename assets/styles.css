@@ -278,7 +278,7 @@ img {
 .hero {
   background:
     linear-gradient(100deg, rgba(42, 36, 47, .92) 0%, rgba(42, 36, 47, .72) 52%, rgba(42, 36, 47, .22) 100%),
-    url("/assets/cardiff-accountant-hero-legacy.jpg") center 38%/cover;
+    url("/assets/cardiff-accountant-hero-legacy.jpg") center 55%/cover;
   color: white;
   border-bottom: 4px solid var(--red);
 }
