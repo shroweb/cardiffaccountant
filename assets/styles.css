@@ -285,12 +285,12 @@ img {
 
 .hero-inner {
   width: min(var(--max), calc(100% - 40px));
-  min-height: 640px;
+  min-height: 780px;
   margin: 0 auto;
   display: grid;
   align-items: center;
   grid-template-columns: minmax(0, 740px);
-  padding: 70px 0 78px;
+  padding: 100px 0 110px;
 }
 
 .eyebrow {
@@ -2921,32 +2921,6 @@ h1 em, h2 em {
   gap: 0;
 }
 
-.stat-item {
-  padding: 22px 28px;
-  border-left: 1px solid rgba(255,255,255,.1);
-  color: white;
-}
-
-.stat-item:first-child {
-  border-left: 0;
-}
-
-.stat-item strong {
-  display: block;
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.7rem;
-  font-weight: 900;
-  line-height: 1;
-  color: #ffd8d4;
-  margin-bottom: 5px;
-}
-
-.stat-item span {
-  color: rgba(255,255,255,.6);
-  font-size: .84rem;
-  font-weight: 600;
-}
-
 /* 10. Credentials strip redesigned */
 .cred-strip {
   background: white;
@@ -4098,11 +4072,6 @@ h1, h2, h3, h4, h5, h6,
   font-style: normal;
 }
 
-/* Shorter hero */
-.hero-inner {
-  min-height: 440px !important;
-  padding: 50px 0 56px !important;
-}
 
 .hero h1 {
   font-size: clamp(1.9rem, 3.6vw, 3.2rem) !important;
